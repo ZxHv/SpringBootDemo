@@ -1,4 +1,4 @@
-#SpringBoot配置
+#Spring Boot配置详解
 + Spring Boot应用的配置内容都可以集中在src/main/resources/application.properties
 + SpringBoot的配置文件不仅可以使用properties文件，还可以使用YAML文件
 + YAML文件是以类似大纲的缩进形式来表示，如:
