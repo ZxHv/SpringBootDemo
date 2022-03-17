@@ -140,3 +140,10 @@ Binder binder = Binder.get(context.getEnvironment());
 List<String> post = binder.bind("com.xxexample.post", Bindable.listOf(String.class)).get();
 List<PostInfo> posts = binder.bind("com.xxexample.posts", Bindable.listOf(PostInfo.class)).get();
 ```
+
+### 将单个module打成jar包
+1. 在terminal中首先cd到对应的Module目录下，输入：mvn clean package
+2. 再执行：mvn clean install
+3. 在对应Module的target文件夹下生成相应的jar包
+
+
